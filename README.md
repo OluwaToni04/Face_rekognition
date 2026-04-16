@@ -2,6 +2,11 @@
 A simple face rekognition using Amazon rekognitionand other amazon services 
 # Cloud-Based Face Recognition API
 
+# Basic Architecture
+![Cloud-Based Face Recognition Architecture](./projectarch.png)
+
+*Architecture diagram of the cloud-based face recognition system showing the EC2-hosted Dockerized Flask API, S3-triggered Lambda indexing workflow, Rekognition collection, and DynamoDB storage.*
+
 A cloud-based face recognition project built with **Flask**, **Docker**, **AWS Lambda**, **Amazon S3**, **Amazon Rekognition**, **Amazon DynamoDB**, **Docker Hub**, and **Amazon EC2**.
 
 This project combines two connected workflows:
