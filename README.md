@@ -273,13 +273,6 @@ docker run -d --name face-api-container --env-file .env -p 5000:5000 oluwatoni04
 - Excluded `.venv` from Git tracking
 - Resolved Git push conflict caused by remote history mismatch
 
----
-
-## Screenshot Walkthrough
-
-> **Important:** Place all screenshots inside `images/` and keep their filenames exactly as shown below.
-
----
 
 ## 1. Local API Testing with Postman
 
